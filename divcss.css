@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;  
+}
+/*
+Esto es un comentario dentro de un documento de css
+*/
+
+.derecha{
+    position: absolute;
+    right: 10%;
+    width: 20%;
+    height: 100%;
+    background-color: #CEEDC7;
+    box-sizing: border-box;
+    padding-left: 15px;
+    border: 1px solid grey;   
+}
+
+.arriba{
+    position: absolute;
+    width: 60%;
+    height: 20%;
+    top: 0px;
+    left: 10%;
+    background-color: #FFF6BD;
+}
+
+.cuerpo{
+    position: absolute;
+    top:20%;
+    left: 10%;
+    width: 60%;
+    height: 70%;
+    background-color:#86C8BC;
+    box-sizing: border-box;
+    padding-left: 15px;   
+}
+h1{
+    font-family:'Roboto', sans-serif;
+    font-weight:bold;
+    color:darkslategray;
+}
+h2{
+    font-family:'Roboto', sans-serif;
+    font-weight:bold;
+    color:darkslategray;
+}
+
+h3{
+    font-family:'Roboto', sans-serif;
+    font-weight:bold;
+    color:darkslategray;
+}
+
+h4{
+    font-family:'Roboto', sans-serif;
+    font-weight:bold;
+    color:darkslategray;
+}
+h5{
+    font-family:'Roboto', sans-serif;
+    font-weight:bold;
+    color:#3c3c3c;
+}
+a{
+    font-family:'Roboto', sans-serif;
+    text-decoration: none;
+    color: #86C8BC;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;   
+
+}
+nav a:hover {
+    color:white;
+}
+ul{
+    font-family:'Roboto', sans-serif;
+    color: darkslategray;
+}
+form{
+    font-family:'Roboto', sans-serif;
+    color:#3c3c3c;
+    font-weight: bold;
+}
+
+p{
+    font-family:'Roboto', sans-serif;
+    color: #3c3c3c;
+    font-weight: bold;
+}
+.nombre{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.profesion{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foto{
+    display: flex;
+    margin-left: 50px;
+   align-items: center;
+}
+footer{
+    position: absolute;
+    height: 10%;
+    width: 60%;
+    bottom: 0px;
+    left: 10%;
+    right: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFD4B2;
+}
